@@ -6,41 +6,83 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Garrett Mandujano Dev</title>
 </head>
-<body>
+<h2>
+  
+</h2>
+  <body>
+    <h1 class="title">
+      My Information
+   </h1>
+
+
   <style>
     .title {
       color: navy;
       font-size:xx-large;
       font-family: Helvetica;
-      padding-left: -1em;
-}
+      padding-left: 1em;
+    }
 
-    .body1 {
-      padding-left: 1rem;
-      display: flex;
-      flex-direction: column;
-      position: relative;
+    .p1 {
+      font-family: Helvetica;
+      font-weight: 600;
+      padding-left: 2rem;
+      padding-top: 2rem;
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      position:relative;
       overflow: hidden;
       background-color: #fff;
       border-radius: 18px;
-      width: 28.23529rem;
-      height: 29.41176rem;
+      width: 16rem;
+      height: 19.41176rem;
       white-space: normal;
       box-shadow: 2px 4px 12px rgba(0,0,0,.08);
-      transition: all .3s cubic-bezier(0,0,.5,1);
+      transition: .3s cubic-bezier(0,0,.5,1);
     }
 
-    .body1:hover {
+    .p1:hover {
       box-shadow: 2px 4px 16px rgba(0,0,0,.16);
       transform: scale3d(1.01,1.01,1.01);
+      cursor: pointer;
+      text-decoration: underline;
     }
-    
-  </style>
-  <h1 class="title">
-    My Information
-  </h1>
 
-<body class="body1" href="/youtube">
+    .p2 {
+      font-family: Helvetica;
+      font-weight: 600;
+      padding-left: 2rem ;
+      padding-top: 2rem;
+      margin-left: 1rem;
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      position:relative;
+      overflow: hidden;
+      background-color: #fff;
+      border-radius: 18px;
+      width: 15.23529rem;
+      height: 19.41176rem;
+      white-space: normal;
+      box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+      transition: .3s cubic-bezier(0,0,.5,1);
+    }
+
+    .p2:hover {
+      box-shadow: 2px 4px 16px rgba(0,0,0,.16);
+      transform: scale3d(1.01,1.01,1.01);
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  </style>
+
+<p class="p1" href="/youtube">
   Here Is My Resume
+</p>
+
+<p class="p2">
+  here is something different
+</p>
 </body>
 </html>
